@@ -1,0 +1,40 @@
+footer {
+  margin-top: 60px;
+  padding: 30px 0;
+  width: 100%;
+  background: rgb(7, 27, 128);
+  background: linear-gradient(
+    90deg,
+    rgba(7, 27, 128, 1) 0%,
+    rgba(85, 2, 85, 1) 93%
+  );
+
+  div {
+    width: 400px;
+  }
+
+  span {
+    color: #ffffff;
+  }
+
+  span.logo {
+    padding: 10px;
+  }
+
+  div.logo {
+    img {
+      height: 100px;
+      object-fit: contain;
+    }
+  }
+  div.contact {
+    div {
+      span {
+        background-color: #fff;
+        color: blue;
+        padding: 5px;
+        border-radius: 2px;
+      }
+    }
+  }
+}

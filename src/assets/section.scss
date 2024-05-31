@@ -1,0 +1,122 @@
+section#hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    height: max-content;
+    object-fit: contain;
+  }
+}
+
+article#population {
+  margin-top: 140px;
+  height: 200px;
+  width: 100%;
+
+  div.icon-container {
+    div.icon {
+      height: 60px;
+      width: 50px;
+      background-color: rgba(255, 255, 255, 0.763);
+      width: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+    }
+    span {
+      color: #fff;
+    }
+  }
+
+  background-image: linear-gradient(
+    85deg,
+    hsl(240deg 100% 20%) 0%,
+    hsl(231deg 99% 20%) 5%,
+    hsl(227deg 99% 20%) 10%,
+    hsl(224deg 99% 20%) 15%,
+    hsl(222deg 99% 21%) 20%,
+    hsl(220deg 99% 21%) 25%,
+    hsl(218deg 99% 21%) 30%,
+    hsl(216deg 98% 21%) 35%,
+    hsl(215deg 98% 21%) 40%,
+    hsl(213deg 98% 21%) 45%,
+    hsl(212deg 98% 21%) 50%,
+    hsl(237deg 49% 34%) 55%,
+    hsl(250deg 53% 38%) 60%,
+    hsl(257deg 59% 41%) 65%,
+    hsl(261deg 64% 43%) 70%,
+    hsl(264deg 69% 45%) 75%,
+    hsl(266deg 73% 47%) 80%,
+    hsl(268deg 78% 49%) 85%,
+    hsl(269deg 83% 50%) 90%,
+    hsl(271deg 91% 51%) 95%,
+    hsl(273deg 100% 50%) 100%
+  );
+}
+
+section#news {
+  padding-top: 60px;
+  div.title {
+    width: 420px;
+    h1 {
+      font-size: 35px;
+      font-weight: 700;
+      color: #701cd7;
+    }
+    span {
+      font-weight: 500;
+    }
+  }
+
+  div.news-cards {
+    text-align: left;
+    a {
+      background-color: #701cd7;
+      color: #fff;
+      padding: 5px 15px;
+      border-radius: 2px;
+    }
+  }
+}
+
+section#campuses {
+  padding-top: 60px;
+  div.title {
+    width: 420px;
+    margin-bottom: 50px;
+    h1 {
+      font-size: 35px;
+      font-weight: 700;
+      color: #701cd7;
+    }
+
+    span {
+      font-weight: 500;
+    }
+  }
+  h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #701cd7;
+  }
+
+  a.readmore {
+    border: 2px solid #701cd7;
+    padding: 5px 15px;
+    color: #701cd7;
+    font-weight: 600;
+    transition: all 0.4s ease;
+    svg {
+      color: #701cd7;
+    }
+  }
+
+  a.readmore:hover {
+    background-color: #701cd7;
+    color: #ffff;
+    svg {
+      color: #ffff;
+    }
+  }
+}
