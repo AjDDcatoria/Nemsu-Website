@@ -120,3 +120,57 @@ section#campuses {
     }
   }
 }
+main#facilities {
+  h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: rgb(87, 87, 87);
+  }
+  section {
+    padding-top: 20px;
+    border-top: 2px solid #cccc;
+    border-radius: 0;
+    max-width: 1000px;
+    width: fit-content;
+    padding-left: 10px;
+    div {
+      position: relative;
+      z-index: 2;
+      img {
+        height: 250px;
+        position: relative;
+      }
+      i {
+        font-size: 35px;
+        position: absolute;
+        z-index: 3;
+        top: 35%;
+        left: 43%;
+        color: #ffff;
+        opacity: 0;
+        transition: 0.3 all ease;
+      }
+    }
+
+    div::before {
+      height: 250px;
+      width: 318px;
+      content: "";
+      position: absolute;
+      z-index: 1;
+      background-color: rgb(77, 77, 215);
+      opacity: 0;
+      transition: 0.3s all ease;
+    }
+
+    div:hover::before {
+      opacity: 0.6;
+    }
+    div:hover {
+      i {
+        opacity: 1;
+      }
+    }
+  }
+}

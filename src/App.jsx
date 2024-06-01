@@ -2,6 +2,7 @@ import { useState } from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Facilities from "./pages/Facilities";
 
 const router = createBrowserRouter([
   {
@@ -9,8 +10,8 @@ const router = createBrowserRouter([
     element: <LandingPage />,
   },
   {
-    path: "/about",
-    element: <div>about</div>,
+    path: "/facilities",
+    element: <Facilities />,
   },
 ]);
 

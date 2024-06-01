@@ -33,7 +33,7 @@ function News() {
             </div>
             <a
               href="#"
-              className="float-left relative top-7 flex items-center gap-2"
+              className="float-left relative top-3 flex items-center gap-2"
             >
               Read More
               <FaArrowRightLong />
@@ -54,7 +54,7 @@ function News() {
             </div>
             <a
               href="#"
-              className="float-left relative top-7 flex items-center gap-2"
+              className="float-left relative top-3 flex items-center gap-2"
             >
               Read More
               <FaArrowRightLong />
@@ -75,7 +75,7 @@ function News() {
             </div>
             <a
               href="#"
-              className="float-left relative top-7 flex items-center gap-2"
+              className="float-left relative top-3 flex items-center gap-2"
             >
               Read More
               <FaArrowRightLong />
@@ -96,7 +96,7 @@ function News() {
             </div>
             <a
               href="#"
-              className="float-left relative top-7 flex items-center gap-2"
+              className="float-left relative top-3 flex items-center gap-2"
             >
               Read More
               <FaArrowRightLong />
